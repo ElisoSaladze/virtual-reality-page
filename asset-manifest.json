@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/virtual-reality-page/static/css/main.7e779aec.css",
+    "main.js": "/virtual-reality-page/static/js/main.36044d92.js",
+    "static/media/Mask Group.png": "/virtual-reality-page/static/media/Mask Group.97d17218aa406b7acda4.png",
+    "static/media/Image.png": "/virtual-reality-page/static/media/Image.ca8c130a244f03a81c59.png",
+    "static/media/Frame.svg": "/virtual-reality-page/static/media/Frame.86a3b5de86895de66eb91b1b4098600b.svg",
+    "static/media/Group (2).svg": "/virtual-reality-page/static/media/Group (2).fec712801e087fa33dc3d0922dce038a.svg",
+    "static/media/Group (1).svg": "/virtual-reality-page/static/media/Group (1).c109baf9a91e76dd78961195c600b5f9.svg",
+    "static/media/Group.svg": "/virtual-reality-page/static/media/Group.c514aef6c229f3cf354f3d8d813eaa69.svg",
+    "static/media/Ellipse (6).svg": "/virtual-reality-page/static/media/Ellipse (6).662b2d63b8a1f47f94c9.svg",
+    "static/media/Ellipse (9).svg": "/virtual-reality-page/static/media/Ellipse (9).81339131bab126618ae6.svg",
+    "static/media/Ellipse (10).svg": "/virtual-reality-page/static/media/Ellipse (10).848c9484c24b56e19879.svg",
+    "static/media/Ellipse (7).svg": "/virtual-reality-page/static/media/Ellipse (7).2c3304a8047a21dc7aba.svg",
+    "index.html": "/virtual-reality-page/index.html",
+    "static/media/Vector (1).svg": "/virtual-reality-page/static/media/Vector (1).92dd2e5c46f1fc31a23071b611b64998.svg",
+    "static/media/Ellipse (3).svg": "/virtual-reality-page/static/media/Ellipse (3).d4c755fe0bd4a522914b.svg",
+    "static/media/Ellipse.svg": "/virtual-reality-page/static/media/Ellipse.9331221f30cd0188425b.svg",
+    "static/media/Ellipse (2).svg": "/virtual-reality-page/static/media/Ellipse (2).6336edcf101ac115ad61.svg",
+    "static/media/Ellipse (1).svg": "/virtual-reality-page/static/media/Ellipse (1).2062f7efb6a204f7adf0.svg",
+    "static/media/Ellipse (4).svg": "/virtual-reality-page/static/media/Ellipse (4).93a02f3e3a02d34bc290.svg",
+    "main.7e779aec.css.map": "/virtual-reality-page/static/css/main.7e779aec.css.map",
+    "main.36044d92.js.map": "/virtual-reality-page/static/js/main.36044d92.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e779aec.css",
+    "static/js/main.36044d92.js"
+  ]
+}
