@@ -1,0 +1,62 @@
+.purple {
+    color: #9BA4ED;
+}
+.image-div img {
+    width: 700px;
+    height: auto;
+}
+h1 {
+    color: white;
+    font-size: 3.5rem;
+}
+p {
+    color: white;
+    font-size: 1rem;
+}
+.home-div {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: start;
+    align-items: center;
+    background-image: url(../assets/Ellipse\ \(9\).svg), url(../assets/Ellipse\ \(7\).svg), url(../assets/Ellipse\ \(6\).svg), url(../assets/Ellipse\ \(10\).svg);
+    background-position: 60% 10%, 55% 25%, 83% 10%, 60% 70%;
+    background-repeat: no-repeat;
+}
+.image-div {
+    margin-top: 110px;
+}
+.btn {
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 4px 14px;
+    margin-top: 30px;
+}
+.btn:hover {
+    background-color: rgba(162, 162, 162, 0.349);
+}
+@media screen and (max-width: 1120px) {
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+    .image-div img {
+        width: 500px;
+        height: auto;
+    }
+    .home-div {
+        margin-top: 100px;
+        display: block;
+        text-align: center;
+        margin-left: 40px;
+        background-image: url(../assets/Ellipse\ \(9\).svg), url(../assets/Ellipse\ \(7\).svg), url(../assets/Ellipse\ \(6\).svg), url(../assets/Ellipse\ \(10\).svg);
+        background-size: 100px auto, 100px auto, 50px auto, 200px auto;
+        background-position: 25% 40%, 10% 54%, 30% 85%, 80% 40%;
+    }
+
+}

@@ -1,0 +1,75 @@
+.service-div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    background: transparent;
+    background-color: rgba(24, 24, 24, 0.629);
+    border-radius: 20px;
+}
+.service-card {
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-inline: 30px;
+    background-color: rgba(24, 24, 24, 0.775);
+    max-width: min-content;
+    padding: 30px;
+    height: 130px;
+}
+.service-card p {
+    font-size: 1.2rem;
+}
+.service-parent {
+    display: inline-block;
+}
+.service-div-mobile {
+    display: none;
+}
+.service-div-mobile-1 {
+    display: none;
+}
+@media screen and (max-width: 960px) {
+    .service-div {
+        display: none;
+    }
+    .service-div-mobile {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+        background: transparent;
+        background-color: rgba(24, 24, 24, 0.629);
+        border-radius: 20px;
+    }
+    .service-div-mobile-1 {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+        background: transparent;
+        background-color: rgba(24, 24, 24, 0.629);
+        border-radius: 20px;
+    }
+    .service-card-mobile {
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-inline: 30px;
+        background-color: rgba(24, 24, 24, 0.775);
+        max-width: min-content;
+        padding: 30px;
+        height: 130px;
+    }
+    .service-card-mobile p {
+        font-size: 1rem;
+    }
+}
+

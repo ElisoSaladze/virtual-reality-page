@@ -1,0 +1,28 @@
+.AboutUs-div {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: start;
+    align-items: center;
+}
+.div-with-text {
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.div-with-text h2 {
+    font-size: 3.5rem;
+}
+.div-with-text p {
+    font-size: 1.2rem;
+}
+@media screen and (max-width: 960px) {
+    .AboutUs-div {
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+    .div-with-text p {
+        font-size: 0.9rem;
+    }
+}

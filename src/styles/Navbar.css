@@ -1,0 +1,116 @@
+.nav-items {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 70px;
+    list-style: none;
+    text-align: center;
+}
+.navbar-logo {
+    margin-right: auto;
+}
+.nav-links {
+    text-decoration: none;
+    justify-content: center;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+.nav-links:hover {
+    background-color: rgba(162, 162, 162, 0.349);
+    border-radius: 5px;
+}
+.fa-bars {
+    color: white;
+    font-size: 2rem;
+}
+.fa-xmark {
+    color: white;
+    font-size: 2rem;
+}
+.navbar-icon {
+    display: none;
+}
+.button-1 {
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 4px 14px;
+}
+.button-1:hover {
+    background-color: rgba(162, 162, 162, 0.349);
+}
+.nav-links-mobile {
+    display: none;
+}
+@media screen and (max-width: 960px) {
+    .button-1 {
+        display: none;
+    }
+    .nav-items {
+        position: relative;
+    }
+    .nav-menu {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.005s ease;
+    }
+    .navbar-icon {
+        display: block;
+        position: absolute;
+        top: zero;
+        right: 30px;
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+    .nav-menu.active {
+        background: transparent;
+        background: rgba(62, 60, 60, 0.737);
+        left: 0;
+        opacity: 1;
+        transition: all 0.005s ease;
+        z-index: 1;
+        padding-left: 0;
+    }
+    .nav-links {
+        text-align: center;
+        padding: 1.5rem;
+        width: 100%;
+        display: table;
+    }
+    .navbar-logo {
+        position: absolute;
+        left: 30px;
+    }
+    .nav-links-mobile {
+        display: block;
+        text-align: center;
+        padding: 1.5rem;
+        margin: auto;
+        border-radius: 5px;
+        width: 80%;
+        background: transparent;
+        background-color: rgba(162, 162, 162, 0.084);
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        border: 1px solid white;
+    }
+    .nav-links-mobile:hover{
+        background-color: rgba(162, 162, 162, 0.349);
+    }
+}

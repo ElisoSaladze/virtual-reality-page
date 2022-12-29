@@ -1,0 +1,30 @@
+.footer-sec {
+    color: white;
+    background: transparent;
+    background: rgba(62, 60, 60, 0.345);
+    display: inline-block;
+    backdrop-filter: blur(50px);
+    border-radius: 40px;
+    margin-top: 240px;
+    margin-bottom: 110px;
+}
+.footer-sec h3 {
+    font-size: 3rem;
+    margin: 53px 200px;
+}
+.footer-btn {
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 4px 14px;
+    margin-top: 54px;
+    margin-bottom: 90px;
+}
+@media screen and (max-width: 960px) {
+    .footer-sec h3 {
+        font-size: 2rem;
+        margin: 53px 150px;
+    }
+}
