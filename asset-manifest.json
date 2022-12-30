@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/virtual-reality-page/static/css/main.cf961aab.css",
+    "main.css": "/virtual-reality-page/static/css/main.39642c8b.css",
     "main.js": "/virtual-reality-page/static/js/main.36044d92.js",
     "static/media/Mask Group.png": "/virtual-reality-page/static/media/Mask Group.97d17218aa406b7acda4.png",
     "static/media/Image.png": "/virtual-reality-page/static/media/Image.ca8c130a244f03a81c59.png",
@@ -19,11 +19,11 @@
     "static/media/Ellipse (2).svg": "/virtual-reality-page/static/media/Ellipse (2).6336edcf101ac115ad61.svg",
     "static/media/Ellipse (1).svg": "/virtual-reality-page/static/media/Ellipse (1).2062f7efb6a204f7adf0.svg",
     "static/media/Ellipse (4).svg": "/virtual-reality-page/static/media/Ellipse (4).93a02f3e3a02d34bc290.svg",
-    "main.cf961aab.css.map": "/virtual-reality-page/static/css/main.cf961aab.css.map",
+    "main.39642c8b.css.map": "/virtual-reality-page/static/css/main.39642c8b.css.map",
     "main.36044d92.js.map": "/virtual-reality-page/static/js/main.36044d92.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf961aab.css",
+    "static/css/main.39642c8b.css",
     "static/js/main.36044d92.js"
   ]
 }
